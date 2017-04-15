@@ -1,0 +1,52 @@
+.type-13 .banner img {
+  width: 100%;
+}
+.type-13 .breadcrumb {
+  margin: 0px 0px 10px 0px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;
+}
+.type-13 .breadcrumb ul {
+  padding: 0px 0px;
+  width: 100%;
+  background-color: transparent;
+  margin: 0px;
+  text-align: right;
+  position: relative;
+}
+.type-13 .breadcrumb ul li {
+  padding: 0px 12px;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  line-height: 20px;
+}
+.type-13 .breadcrumb ul li a {
+  font-size: 14px;
+  color: #666666;
+  line-height: 20px;
+  font-family: 'RobotoRegular';
+}
+.type-13 .breadcrumb ul li.home a {
+  display: inline-block;
+  text-indent: -99999px;
+  color: transparent;
+  width: 20px;
+  height: 18px;
+  background: url(../images/type-13/icon-home1.png) no-repeat 50% 4px;
+}
+.type-13 .breadcrumb ul li ~ li:before {
+  position: absolute;
+  content: "/";
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: -17px;
+  color: #666666;
+  font-size: 14px;
+}
+.type-13 .breadcrumb ul li:first-child {
+  padding: 0px 12px 0px 0px;
+}

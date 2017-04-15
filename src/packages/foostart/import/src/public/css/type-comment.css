@@ -1,0 +1,104 @@
+.type-comment .comment {
+  margin-bottom: 20px;
+}
+.type-comment .comment .title {
+  font-size: 25px;
+  line-height: 33px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.type-comment .comment .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.type-comment .comment .form-comment {
+  width: 100%;
+}
+.type-comment .comment .form-comment textarea.form-control {
+  width: 100%;
+  resize: vertical;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.type-comment .comment .form-comment .content-info {
+  width: 100%;
+  padding: 15px;
+  clear: both;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.type-comment .comment .form-comment .content-info .info-title {
+  margin-bottom: 10px;
+}
+.type-comment .comment .form-comment .content-info .form-control {
+  float: none;
+  margin-bottom: 10px;
+}
+.type-comment .comment .form-comment .form-control {
+  height: 40px;
+}
+.type-comment .comment .form-comment label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.type-comment .comment .form-comment input[type="radio"],
+.type-comment .comment .form-comment input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.type-comment .comment .form-comment .input-group-btn {
+  padding-left: 5px;
+  vertical-align: top;
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+.type-comment .comment .form-comment button.btn {
+  height: auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  background: #67635c;
+  border: 0px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .type-comment .comment .form-comment .input-group-btn,
+  .type-comment .comment .form-comment .input-group {
+    float: left;
+  }
+  .type-comment .comment .form-comment .input-group-btn {
+    width: 5%;
+  }
+  .type-comment .comment .form-comment .input-group {
+    width: 95%;
+  }
+}
+@media (max-width: 767px) {
+  .type-comment .comment .title {
+    margin: 0 15px;
+  }
+  .type-comment .comment .form-comment textarea {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .type-comment .comment .form-comment .input-group-btn {
+    width: auto;
+    float: right;
+    position: absolute;
+    right: 10px;
+    margin-top: -55px;
+  }
+  .type-comment .comment .form-comment .input-group {
+    width: 100%;
+  }
+}

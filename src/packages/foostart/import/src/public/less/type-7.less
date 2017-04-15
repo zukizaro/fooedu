@@ -1,0 +1,110 @@
+.type-7{
+    .mid-title {
+        text-align: center;
+        width: auto;
+        position: relative; 
+        border-bottom: 1px solid #e5e5e5;
+        .titleL {
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            line-height: 50px;
+            font-family: 'RobotoRegular';
+            text-transform: uppercase;
+            color: #000000;
+            padding-bottom: 10px;
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+                font-family: 'RobotoRegular';
+            }
+        }
+    } 
+
+
+    .formSystem {
+        margin-top: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+        .table-system {
+            display: table;
+            width: 100%;
+            .title-system {
+                display: table-cell;
+                width: 1%;
+                white-space: nowrap;
+                padding-right: 10px;
+                vertical-align: middle;
+            }
+            .row-input {
+                display: table-cell;
+                width: 100%;
+                .fl, .fr {
+                    width: 48.5%;
+                    float: left;
+                }
+                .fr{
+                    float: right;
+                }
+            }
+        }
+        .formSystem-r,.formSystem-l{
+            width: 100%;
+        }
+        .formSystem-l {
+            float: left;
+        }
+        .formSystem-r {
+            float: right;
+            .btn {
+                padding-left: 45px;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-family: 'OpenSansBold';
+                background: url(../images/icon-search.png) no-repeat 15px #00af5a;
+                border: 1px solid #00af5a;
+            }
+        }
+        .input-group {
+            position: relative;
+            display: table;
+            border-collapse: separate;
+        }
+        .input-group-btn {
+            position: relative;
+            font-size: 0;
+            white-space: nowrap;
+        }
+    }
+    .showresult {
+        .showmap { 
+            text-align: center;
+            border: 1px solid #d1d1d1;
+            text-align: center;
+        }
+        .r-count {
+            width: 100%;
+            font-size: 16px;
+            line-height: 22px;
+            color: #666666;
+            padding-bottom: 4px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+            font-family: 'RobotoRegular';
+        }
+        .show-result {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+    }
+}
+@media (max-width: 767px){
+    .type-7{
+        .container{
+            margin: 0 15px;
+        } 
+        .formSystem-r{
+            margin-top: 20px;
+        }
+    }
+}

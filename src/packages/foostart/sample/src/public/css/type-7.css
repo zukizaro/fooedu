@@ -1,0 +1,103 @@
+.type-7 .mid-title {
+  text-align: center;
+  width: auto;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+}
+.type-7 .mid-title .titleL {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'RobotoRegular';
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.type-7 .mid-title .titleL h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'RobotoRegular';
+}
+.type-7 .formSystem {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.type-7 .formSystem .table-system {
+  display: table;
+  width: 100%;
+}
+.type-7 .formSystem .table-system .title-system {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.type-7 .formSystem .table-system .row-input {
+  display: table-cell;
+  width: 100%;
+}
+.type-7 .formSystem .table-system .row-input .fl,
+.type-7 .formSystem .table-system .row-input .fr {
+  width: 48.5%;
+  float: left;
+}
+.type-7 .formSystem .table-system .row-input .fr {
+  float: right;
+}
+.type-7 .formSystem .formSystem-r,
+.type-7 .formSystem .formSystem-l {
+  width: 100%;
+}
+.type-7 .formSystem .formSystem-l {
+  float: left;
+}
+.type-7 .formSystem .formSystem-r {
+  float: right;
+}
+.type-7 .formSystem .formSystem-r .btn {
+  padding-left: 45px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'OpenSansBold';
+  background: url(../images/icon-search.png) no-repeat 15px #00af5a;
+  border: 1px solid #00af5a;
+}
+.type-7 .formSystem .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.type-7 .formSystem .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+}
+.type-7 .showresult .showmap {
+  text-align: center;
+  border: 1px solid #d1d1d1;
+}
+.type-7 .showresult .r-count {
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'RobotoRegular';
+}
+.type-7 .showresult .show-result {
+  max-height: 600px;
+  overflow-y: auto;
+}
+@media (max-width: 767px) {
+  .type-7 .container {
+    margin: 0 15px;
+  }
+  .type-7 .formSystem-r {
+    margin-top: 20px;
+  }
+}

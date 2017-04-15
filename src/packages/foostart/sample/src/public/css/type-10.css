@@ -1,0 +1,142 @@
+.type-10 .heading .p-title {
+  font-size: 40px;
+  line-height: 50px;
+  padding: 10px 0px;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  font-family: 'RobotoRegular';
+  border-bottom: 1px solid #f2f2f2;
+}
+.type-10 .the-content {
+  margin-top: 30px;
+}
+.type-10 .the-content .table-hiring {
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.type-10 .the-content .table-hiring table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: transparent;
+}
+.type-10 .the-content .table-hiring table tr td {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666666;
+  padding: 15px 10px;
+}
+.type-10 .the-content .table-hiring table tr td .link-button {
+  display: block;
+  height: 35px;
+  padding: 3px 15px 3px 45px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -o-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  background: url(../images/type-10/icon-hiring.png) no-repeat 15px 50% #484848;
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-family: 'RobotoBold';
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.type-10 .the-content .table-hiring table tr td .link-button:hover {
+  background: url(../images/type-10/icon-hiring.png) no-repeat 15px 50% #f79231;
+}
+.type-10 .the-content .table-hiring table tr td.name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  font-family: 'RobotoBold';
+  text-transform: uppercase;
+}
+.type-10 .the-content .table-hiring table thead {
+  border: 1px solid #d4d4d4;
+}
+.type-10 .the-content .table-hiring table thead tr th {
+  padding: 10px 10px;
+}
+.type-10 .the-content .table-hiring table tbody tr td {
+  vertical-align: top;
+}
+.type-10 .the-content .table-hiring table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+@media only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px) {
+  .type-10 .container {
+    margin: 0 15px;
+  }
+  .type-10 .the-content .table-hiring table tr td.name {
+    font-size: 14px;
+    line-height: 22px;
+    color: #666666;
+    padding: 15px 10px;
+    text-transform: inherit;
+  }
+  .type-10 table,
+  .type-10 thead,
+  .type-10 tbody,
+  .type-10 th,
+  .type-10 td,
+  .type-10 tr {
+    display: block;
+  }
+  .type-10 thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .type-10 tr {
+    border: 1px solid #ccc;
+  }
+  .type-10 td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 30% !important;
+  }
+  .type-10 td a.link-button {
+    width: 220px !important;
+    padding: 10px 40px 0px 45px !important;
+  }
+  .type-10 td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  .type-10 td:nth-of-type(1):before {
+    content: "STT";
+  }
+  .type-10 td:nth-of-type(2):before {
+    content: "Ngày đăng ký";
+  }
+  .type-10 td:nth-of-type(3):before {
+    content: "Vị trí";
+  }
+  .type-10 td:nth-of-type(4):before {
+    content: "Mô tả";
+  }
+  .type-10 td:nth-of-type(5):before {
+    content: "Địa điểm";
+  }
+  .type-10 td:nth-of-type(6):before {
+    content: "Ngày hết hạn";
+  }
+  .type-10 td:before {
+    margin-top: 7px;
+    clear: right;
+    display: block;
+  }
+}

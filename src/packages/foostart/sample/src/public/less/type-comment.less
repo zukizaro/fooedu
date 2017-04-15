@@ -1,0 +1,109 @@
+.type-comment{
+    .comment {
+        margin-bottom: 20px;
+        .title {
+            font-size: 25px;
+            line-height: 33px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #333333;
+        }
+        .input-group {
+            position: relative;
+            display: table;
+            border-collapse: separate;
+        }
+        .form-comment{
+            width: 100%; 
+            textarea.form-control {
+                width: 100%; 
+                resize: vertical;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+            .content-info {
+                width: 100%; 
+                padding: 15px;
+                clear: both;
+                background-color: #ffffff;
+                box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+                .info-title {
+                    margin-bottom: 10px;
+                }
+                .form-control {
+                    float: none;
+                    margin-bottom: 10px;
+                }
+            }
+            .form-control {
+                height: 40px;
+            }
+            label {
+                display: inline-block;
+                max-width: 100%;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            input[type="radio"], input[type="checkbox"] {
+                margin: 4px 0 0;
+                margin-top: 1px \9;
+                line-height: normal;
+            }
+
+            .input-group-btn { 
+                padding-left: 5px;
+                vertical-align: top;
+                position: relative;
+                font-size: 0;
+                white-space: nowrap;
+            }
+            button.btn {
+                height: auto;
+                font-size: 16px;
+                line-height: 24px;
+                color: #ffffff;
+                padding: 7px 10px;
+                text-transform: uppercase;
+                background: #67635c;
+                border: 0px;
+                position: relative;
+            }
+            @media(min-width: 768px){
+                .input-group-btn,.input-group{
+                    float:left;
+                }
+                .input-group-btn{
+                    width: 5%;
+                }
+                .input-group{
+                    width: 95%;
+                }
+            }
+
+        }
+        @media(max-width: 767px){
+
+            .title{
+                margin: 0 15px;
+            }
+            .form-comment{
+                textarea{
+                    width: 100%;
+                    padding: 0 15px;
+                }
+                .input-group-btn{
+                    width: auto;
+                    float:right;
+                    position: absolute;
+                    right: 10px;
+                    margin-top: -55px;
+                }
+                .input-group{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
