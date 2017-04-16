@@ -22,7 +22,7 @@
             <td>{!! $import->import_id !!}</td>
             <td>{!! $import->import_name !!}</td>
             <td>
-                <a href="{!! URL::route('admin_import.edit', ['id' => $import->import_id]) !!}"><i class="fa fa-edit fa-2x"></i></a>
+{{--                <a href="{!! URL::route('admin_import.edit', ['id' => $import->import_id]) !!}"><i class="fa fa-edit fa-2x"></i></a>--}}
                 <a href="{!! URL::route('admin_import.delete',['id' =>  $import->import_id, '_token' => csrf_token()]) !!}" class="margin-left-5 delete"><i class="fa fa-trash-o fa-2x"></i></a>
                 <span class="clearfix"></span>
             </td>

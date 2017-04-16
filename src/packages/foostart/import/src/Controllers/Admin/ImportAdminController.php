@@ -113,7 +113,7 @@ class ImportAdminController extends MyController
             $dir = public_path($path);
             unlink($dir . $name_file);      //delete file to 
 
-            $this->addFlashMessage('message', trans('sample::sample_admin.message_add_successfully'));
+            $this->addFlashMessage('message', trans('import::import_admin.message_add_successfully'));
         }
 
         $this->data_view = array_merge($this->data_view, array(
@@ -176,7 +176,6 @@ class ImportAdminController extends MyController
         $dir = public_path($path);
         $new_file_name = md5($file_basename) . $file_ext;
         $request->file('import_file')->move($dir, $new_file_name);
-
 
         return $new_file_name;
     }
