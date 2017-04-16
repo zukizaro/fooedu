@@ -9,4 +9,6 @@
             @yield('content')
         </div>
     </div>
+ 
 @stop
+

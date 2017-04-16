@@ -185,6 +185,9 @@ return [
         LaravelAcl\Authentication\AuthenticationServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
+        Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+
 
     ],
 
@@ -239,6 +242,7 @@ return [
          * Created By DuongTM
          */
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];

@@ -31,9 +31,12 @@ return [
     'import_name_label' => 'Import name:',
     'import_name_placeholder' => 'import name',
     'import_category_name'=> 'Import category name',
-    'import_image_choose' => 'Choose',
+    'import_choose' => 'Choose',
     'slideshow_name' => 'Slideshow',
     'delete_confirm' => 'Delete',
+    'import_header' => 'Number header title (1,2 or 3)',
+    'import_sheet' => 'Number/Name sheet in file',
+    'import_columns' => 'Title columns in header title need get in file (name,email....)',
 
     /**
      * Message

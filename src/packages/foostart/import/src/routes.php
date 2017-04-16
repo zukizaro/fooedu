@@ -14,7 +14,7 @@ Route::group(['middleware' => ['web'],'namespace' => 'Foostart\Import\Controller
     Route::group(['middleware' => ['admin_logged', 'can_see']], function () {
 
         ////////////////////////////////////////////////////////////////////////
-        ////////////////////////////SAMPLES ROUTE///////////////////////////////
+        ////////////////////////////IMPORT ROUTE///////////////////////////////
         ////////////////////////////////////////////////////////////////////////
 
         /**
@@ -49,7 +49,6 @@ Route::group(['middleware' => ['web'],'namespace' => 'Foostart\Import\Controller
             'as' => 'admin_import.delete',
             'uses' => 'ImportAdminController@delete'
         ]);
-
 
 
         

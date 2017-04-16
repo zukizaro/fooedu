@@ -20,7 +20,8 @@ class ImportServiceProvider extends ServiceProvider {
          */
          $this->publishes([
             __DIR__.'/config/import_admin.php' => config_path('import_admin.php'),
-        ],'config');
+        ],'import_config');
+
 
         $this->loadViewsFrom(__DIR__ . '/views', 'import');
 

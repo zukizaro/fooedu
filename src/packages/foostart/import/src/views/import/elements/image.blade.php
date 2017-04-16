@@ -3,7 +3,7 @@
 <div class="input-group">
     <span class="input-group-btn">
         <a id="lfm" data-input="thumbnail" data-preview="holder" class="btn btn-primary">
-            <i class="fa fa-picture-o"></i> {{ trans('import::import_admin.import_image_choose') }}
+            <i class="fa fa-picture-o"></i> {{ trans('import::import_admin.import_choose') }}
         </a>
     </span>
     

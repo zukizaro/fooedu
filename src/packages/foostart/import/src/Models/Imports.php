@@ -11,7 +11,9 @@ class Imports extends Model
     public $timestamps = true;
     protected $fillable = [
         'import_name',
+        'import_overview',
         'import_description',
+        'import_file',
         'import_created_at',
         'import_updated_at',
     ];
@@ -55,7 +57,9 @@ class Imports extends Model
         if (!empty($import)) {
 
             $import->import_name = $input['import_name'];
-            $import->import_description = $input['import_description']; 
+            $import->import_overview = $input['import_overview'];
+            $import->import_description = $input['import_description'];
+            $import->import_file = $input['import_file'];
             $import->import_updated_at = date('Y-m-d');
 
             $import->save();
@@ -76,7 +80,9 @@ class Imports extends Model
 
         $import = self::create([
             'import_name' => @$input['import_name'],
+            'import_overview' => @$input['import_overview'],
             'import_description' => @$input['import_description'],
+            'import_file' => @$input['import_file'],
             'import_created_at' => date('Y-m-d'),
             'import_updated_at' => date('Y-m-d'),
         ]);

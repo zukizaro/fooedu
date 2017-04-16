@@ -24,7 +24,7 @@ class ImportAdminValidator extends AbstractValidator
     }
 
     public function validate($input) {
-
+ 
         $flag = parent::validate($input);
 
         $this->errors = $this->errors?$this->errors:new MessageBag();
@@ -45,9 +45,10 @@ class ImportAdminValidator extends AbstractValidator
 
         $flag = TRUE;
 
+
         $min_lenght = config('import_admin.name_min_length');
         $max_lenght = config('import_admin.name_max_length');
-
+                
         $import_name = @$input['import_name'];
 
         if ((strlen($import_name) < $min_lenght)  || ((strlen($import_name) > $max_lenght))) {
